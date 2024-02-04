@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .performance-matrix {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* Aumenta o tamanho dos quadrados */
+    gap: 10px;
+    border: 2px solid black; /* Adiciona uma borda preta em volta dos quadrados */
+    padding: 10px; /* Espaçamento entre a borda e os quadrados */
+  }
+
+  .performance-square {
+    width: 150px; /* Aumenta o tamanho dos quadrados */
+    height: 150px; /* Aumenta o tamanho dos quadrados */
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column; /* Centraliza o texto e a imagem verticalmente */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-weight: bold;
+    font-size: 16px; /* Diminue o tamanho das letras */
+    color: white;
+  }
+
+  .performance-image {
+    width: 60px; /* Ajusta o tamanho da imagem conforme desejado */
+    height: 60px; /* Ajusta o tamanho da imagem conforme desejado */
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px; /* Espaçamento entre a imagem e o texto */
+  }
+
+  .square-1 {
+    background-color: deepskyblue;
+  }
+
+  .square-2 {
+    background-color: yellowgreen;
+  }
+
+  .square-3 {
+    background-color: forestgreen;
+    font-size: 16px; /* Manter o estilo "Alto Potencial" */
+  }
+
+  .square-4 {
+    background-color: orange;
+  }
+
+  .square-5 {
+    background-color: deepskyblue;
+  }
+
+  .square-6 {
+    background-color: yellowgreen;
+  }
+
+  .square-7 {
+    background-color: red;
+  }
+
+  .square-8 {
+    background-color: orange;
+  }
+
+  .square-9 {
+    background-color: deepskyblue;
+  }
+
+  .alto-potencial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .alto {
+    font-weight: bold;
+  }
+
+  .potencial {
+    font-weight: normal;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
